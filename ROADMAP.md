@@ -8,7 +8,7 @@ Make CodeLab Tools the best platform for creating interactive, accessible, and e
 
 ## Release Planning
 
-### v3.1.0 (Next Minor Release) - Q1 2024
+### v3.1.0 (Next Minor Release) - Q2 2026
 
 **Focus**: Developer Experience & Quality
 
@@ -19,7 +19,7 @@ Make CodeLab Tools the best platform for creating interactive, accessible, and e
 - [ ] Performance optimizations for large codelabs
 - [ ] Better error handling in web components
 
-### v3.2.0 - Q2 2024
+### v3.2.0 - Q3 2026
 
 **Focus**: Content Creation Features
 
@@ -30,7 +30,7 @@ Make CodeLab Tools the best platform for creating interactive, accessible, and e
 - [ ] Improved image optimization
 - [ ] Video embed improvements (more platforms)
 
-### v3.3.0 - Q3 2024
+### v3.3.0 - Q4 2026
 
 **Focus**: Internationalization & Accessibility
 
@@ -41,7 +41,7 @@ Make CodeLab Tools the best platform for creating interactive, accessible, and e
 - [ ] WCAG 2.1 Level AA compliance
 - [ ] Keyboard navigation improvements
 
-### v4.0.0 - Q4 2024
+### v4.0.0 - Q1 2027
 
 **Focus**: Modern Architecture
 
@@ -307,6 +307,6 @@ No guarantees are made about specific features or timelines. We'll do our best!
 
 ---
 
-*Last updated: January 2024*
+*Last updated: January 2026*
 
 *Want to add something to the roadmap? [Open a discussion](https://github.com/Stimu-li/codelab-tools/discussions)!*

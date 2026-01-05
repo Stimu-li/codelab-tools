@@ -33,4 +33,4 @@
 - **Add GitHub Actions workflow for release automation** in 4c21fb8
   - Automated builds for macOS, Linux, and Windows (32/64-bit)
 
-**Full Changelog**: https://github.com/Bit-Blazer/codelab-tools/compare/873fe39...v3.0.0
+**Full Changelog**: https://github.com/Stimu-li/codelab-tools/compare/873fe39...v3.0.0

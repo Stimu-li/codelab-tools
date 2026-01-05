@@ -73,7 +73,7 @@ For detailed setup instructions, see the [Build Guide](BUILD_GUIDE.md).
 
 ## Installation
 
-The easiest way is to download pre-compiled binaries from the [Releases page](https://github.com/Bit-Blazer/codelab-tools/releases/latest).
+The easiest way is to download pre-compiled binaries from the [Releases page](https://github.com/Stimu-li/codelab-tools/releases/latest).
 
 ## Documentation
 
@@ -110,6 +110,6 @@ Original work by Google, modifications and enhancements by this fork.
 
 ## Community
 
-- **Issues**: Report bugs or request features on [GitHub Issues](https://github.com/Bit-Blazer/codelab-tools/issues)
-- **Discussions**: Share ideas in [GitHub Discussions](https://github.com/Bit-Blazer/codelab-tools/discussions)
+- **Issues**: Report bugs or request features on [GitHub Issues](https://github.com/Stimu-li/codelab-tools/issues)
+- **Discussions**: Share ideas in [GitHub Discussions](https://github.com/Stimu-li/codelab-tools/discussions)
 - **Original Group**: [codelab-authors Google Group](https://groups.google.com/g/codelab-authors)

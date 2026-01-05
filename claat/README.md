@@ -8,14 +8,14 @@ CLAAT (Codelabs As A Thing) is a command-line tool that converts documents into 
 
 ### Download Pre-compiled Binary
 
-The easiest way is to download pre-compiled binaries from the [Releases page](https://github.com/Bit-Blazer/codelab-tools/releases/latest).
+The easiest way is to download pre-compiled binaries from the [Releases page](https://github.com/Stimu-li/codelab-tools/releases/latest).
 
 ### Install with Go
 
 If you have Go installed:
 
 ```bash
-go install github.com/Bit-Blazer/codelab-tools/claat@latest
+go install github.com/Stimu-li/codelab-tools/claat@latest
 ```
 
 ### Build from Source
@@ -69,7 +69,7 @@ claat export -f offline path/to/codelab.md
   - `offline`: Plain HTML for offline consumption
   - Or specify a path to custom Go template file
 - `-e <env>`: Codelab environment (default: `web`)
-- `-prefix <url>`: URL prefix for HTML format (default: `https://cdn.jsdelivr.net/gh/Bit-Blazer/codelab-tools@main/codelab-elements/build/`)
+- `-prefix <url>`: URL prefix for HTML format (default: `https://cdn.jsdelivr.net/gh/Stimu-li/codelab-tools@main/codelab-elements/build/`)
 - `-ga4 <account>`: Global Google Analytics 4 account (default: `G-XXXXXXXXXX`)
 - `-auth <token>`: OAuth2 Bearer token for Google Drive API
 - `-pass_metadata <fields>`: Comma-delimited list of metadata fields to pass through
