@@ -10,10 +10,10 @@
     "pub": "npm run clean && npm run build && cd bazel-genfiles && unzip npm_dist.zip -d npm_dist && npm publish npm_dist",
     "demo": "cd claat && go build -o bin/claat.exe && cd ..\\sample-codelabs && ..\\claat\\bin\\claat.exe export -prefix ../../codelab-elements/build test-all-features.md"
   },
-  "author": "Google",
+  "author": "Google (original), Stimu-li (fork maintainer)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/googlecodelabs/tools.git"
+    "url": "https://github.com/Stimu-li/codelab-tools.git"
   },
   "license": "Apache-2.0",
   "devDependencies": {
