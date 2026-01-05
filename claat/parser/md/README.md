@@ -436,4 +436,4 @@ Open <http://localhost:9090> in your browser to preview.
 
 - [Sample Codelab](sample/codelab.md) - A complete example
 - [Codelab Viewer](https://codelabs.developers.google.com) - See published examples
-- [GitHub Issues](https://github.com/Bit-Blazer/codelab-tools/issues) - Report bugs or request features
+- [GitHub Issues](https://github.com/Stimu-li/codelab-tools/issues) - Report bugs or request features

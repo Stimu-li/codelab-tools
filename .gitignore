@@ -1,10 +1,66 @@
+# Bazel
 bazel-*
+
+# Operating System Files
 .DS_Store
-.drone.sec.yml
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE and Editor Files
 .idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+*.sublime-project
+*.sublime-workspace
+
+# Build and Test Outputs
 debug.test
 *pb.go
-node_modules
+*.test
+*.out
+coverage.txt
+*.coverprofile
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+vendor/
+
+# Compiled binaries (allow claat/bin/ but ignore contents)
+claat/bin/*
+!claat/bin/.gitkeep
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+.drone.sec.yml
+
+# Build artifacts
+dist/
+build/
+tmp/
 
 # Ignore everything under sample-codelabs by default
 sample-codelabs/*
@@ -15,3 +71,22 @@ sample-codelabs/*
 # Allow shared images
 !sample-codelabs/img/
 !sample-codelabs/img/**
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Certificates and keys
+*.pem
+*.key
+*.cert
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Generated documentation
+docs/_build/
+site/

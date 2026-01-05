@@ -1,0 +1,33 @@
+# Development Dockerfile with all tools installed
+FROM golang:1.23
+
+# Install Node.js 20
+RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
+    apt-get install -y nodejs
+
+# Install development tools
+RUN apt-get update && apt-get install -y \
+    git \
+    make \
+    vim \
+    curl \
+    wget \
+    unzip \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install golangci-lint
+RUN curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(go env GOPATH)/bin
+
+# Install markdownlint
+RUN npm install -g markdownlint-cli2
+
+WORKDIR /workspace
+
+# Pre-download common Go modules
+RUN go install golang.org/x/tools/gopls@latest && \
+    go install github.com/go-delve/delve/cmd/dlv@latest
+
+# Set up Git
+RUN git config --global --add safe.directory /workspace
+
+CMD ["/bin/bash"]

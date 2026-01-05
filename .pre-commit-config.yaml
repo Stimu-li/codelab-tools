@@ -1,0 +1,53 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-added-large-files
+        args: ['--maxkb=1000']
+      - id: check-merge-conflict
+      - id: check-case-conflict
+      - id: mixed-line-ending
+      - id: detect-private-key
+
+  - repo: https://github.com/golangci/golangci-lint
+    rev: v1.55.2
+    hooks:
+      - id: golangci-lint
+        args: ['--config=claat/.golangci.yml']
+        pass_filenames: false
+
+  - repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: v0.11.0
+    hooks:
+      - id: markdownlint-cli2
+        args: ['--config', '.markdownlint.json']
+
+  - repo: local
+    hooks:
+      - id: go-fmt
+        name: go fmt
+        entry: gofmt
+        args: ['-l', '-w']
+        language: system
+        types: [go]
+        pass_filenames: true
+
+      - id: go-mod-tidy
+        name: go mod tidy
+        entry: bash -c 'cd claat && go mod tidy'
+        language: system
+        files: '^claat/go\.(mod|sum)$'
+        pass_filenames: false
+
+      - id: go-test
+        name: go test
+        entry: bash -c 'cd claat && go test ./...'
+        language: system
+        files: '\.go$'
+        pass_filenames: false
+        stages: [push]
