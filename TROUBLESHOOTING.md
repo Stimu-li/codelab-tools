@@ -392,11 +392,13 @@ ldd claat/bin/claat  # Check dependencies
 
 **Solution**:
 ```bash
-# Use port > 1024
+# Recommended: Use port > 1024 (no special permissions needed)
 claat serve -addr localhost:8080
 
-# Or grant capability (not recommended)
-sudo setcap 'cap_net_bind_service=+ep' claat/bin/claat
+# NOT RECOMMENDED: Grant capability (security risk)
+# This grants elevated network privileges that could be exploited
+# Only use if absolutely necessary and you understand the risks
+# sudo setcap 'cap_net_bind_service=+ep' claat/bin/claat
 ```
 
 ## Development Issues

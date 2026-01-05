@@ -363,7 +363,7 @@ claat export -extra '{"author_email":"you@example.com"}' tutorial.md
 ## Getting Help
 
 - **Examples**: Look at the provided samples
-- **Documentation**: Read [Markdown Format Guide](../claat/parser/md/README.md)
+- **Documentation**: Read the [Markdown Format Guide](https://github.com/Stimu-li/codelab-tools/blob/main/claat/parser/md/README.md)
 - **Issues**: [Report problems](https://github.com/Stimu-li/codelab-tools/issues)
 - **Discussions**: [Ask questions](https://github.com/Stimu-li/codelab-tools/discussions)
 

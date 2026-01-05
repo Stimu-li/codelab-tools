@@ -32,9 +32,9 @@ updates:
     reviewers:
       - "Stimu-li"
     ignore:
-      # Ignore Bazel updates for now as they need careful testing
+      # Ignore Bazel updates as they need careful testing with the build system
       - dependency-name: "@bazel/*"
-        update-types: ["version-update:semver-major"]
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
 
   # GitHub Actions
   - package-ecosystem: "github-actions"

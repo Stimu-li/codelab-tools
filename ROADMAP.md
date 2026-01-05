@@ -25,7 +25,6 @@ Make CodeLab Tools the best platform for creating interactive, accessible, and e
 
 - [ ] Live preview mode (watch for changes and auto-reload)
 - [ ] Markdown validation and linting
-- [ ] Content suggestions (AI-powered)
 - [ ] Template library for common tutorial types
 - [ ] Improved image optimization
 - [ ] Video embed improvements (more platforms)
@@ -62,6 +61,7 @@ Make CodeLab Tools the best platform for creating interactive, accessible, and e
 - [ ] Code snippet library
 - [ ] Reusable content blocks/fragments
 - [ ] Template marketplace
+- [ ] Content suggestions (optional AI-powered plugin, privacy-focused, client-side processing)
 
 #### Export & Publishing
 - [ ] PDF export support
